@@ -1,6 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app_youtube/screens/video_play.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class VideoList extends StatefulWidget {
   VideoList(this.videoId, this.videoTitle, this.videoThumbnail);
